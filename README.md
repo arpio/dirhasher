@@ -8,6 +8,10 @@ built-in `dirhash` module and prints it to stdout.
 When computing the hash of a directory, the `prefix` argument passed
 to `dirhash.HashDir` is always `""`.
 
+### Installation
+
+    go install github.com/arpio/dirhasher@latest
+
 ### Usage
 
 Use it on a ZIP archive:
