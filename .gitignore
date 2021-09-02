@@ -1,0 +1,11 @@
+.DS_Store
+
+# Don't commit the vendor dir
+vendor/
+
+# Ignore IntelliJ files
+*.iml
+
+go.sum
+
+dist/
